@@ -20,21 +20,23 @@ for(let i =0;i<=10;i++){
 }*/
 
 //2중 for문
-/*for(let i=2;i<=9;i++){
-  //console.log(i)
-  for(let a=1;a<=9;a++){
-    console.log(i+"*"+a+"="+i*a)
-  }
-}*/
+// for(let i=2;i<=9;i++){
+//   //console.log(i)
+//   for(let a=1;a<=9;a++){
+//     console.log(i+"*"+a+"="+i*a)
+//   }
+// }
 
 //정확한 범위가 없는 조건문
-/*while(buttonclick==true){
-  console.log("while문",i)
-  i++;
-}*/
+// let i=2
+// while(i<10){
+//   console.log("while문",i);
+//   i++;
+// }
 
-let fruit = ["banana","apple","grappe","mango"]
 
-for(let i=0;i<fruit.length;i++){
-  console.log(fruit[i])
-}
+// let fruit = ["banana","apple","grappe","mango"]
+
+// for(let i=0;i<fruit.length;i++){
+//   console.log(fruit[i])
+// }
