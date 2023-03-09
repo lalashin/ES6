@@ -25,7 +25,12 @@ body {
     cursor: pointer;
 }
 
-#under_line {
+.task_tabs div.active{
+
+    border-bottom: 4px solid  pink;
+}
+
+/* #under_line {
     position: absolute;
     height: 4px;
     background-color: pink;    
@@ -34,7 +39,7 @@ body {
     top: 52px;
     padding: 0;
 
-}
+} */
 .task {
     display: flex;
     justify-content: space-between ;

@@ -17,10 +17,20 @@ let tabs = document.querySelectorAll(".task_tabs div");
 let taskList = [];
 let mode = "all";
 let filterList = [];
+let tabItem = document.querySelectorAll(".tab_item");
 addButton.addEventListener("click",addTask);
 
-for(let i=1; i<tabs.length;i++ ){
-    tabs[i].addEventListener("click",function(event){filter(event)})
+tabItem.forEach((el,idx)=>{
+    el.addEventListener('click',function(){
+        tabItem.forEach((item)=>{
+            item.classList.remove("active");
+        })
+        tabItem[idx].classList.add("active");
+    });
+});
+
+for(let i=0; i<tabs.length;i++ ){
+    tabs[i].addEventListener("click",function(event){filter(event)});
 }
 console.log(tabs);
 
